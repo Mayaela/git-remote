@@ -8,6 +8,9 @@ if ((patate == "Oui")  || (patate == "OUI") || (patate == "oui"))
         console.log(tasPatates);
         tasPatates = tasPatates + "#"
     }
-} else {
+} else if ((patate == "Non")  || (patate == "NON") || (patate == "non")) 
+{
     alert("Ohhh mais c'est pas possiiiible !");
+} else {
+    alert("Je vous sens comme tiraillé");
 }
